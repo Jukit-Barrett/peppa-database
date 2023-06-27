@@ -1,0 +1,22 @@
+{
+    "name": "mrzkit/peppa-database",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Mrzkit\\PeppaDatabase\\": "src/",
+            "Mrzkit\\PeppaDatabaseTest\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shijie.zhu",
+            "email": "kitgor.architect@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpstan/phpstan": "^1.9",
+        "phpunit/phpunit": "^8.5"
+    }
+}
